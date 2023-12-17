@@ -1,3 +1,4 @@
+vim.opt.colorcolumn = "80"
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
 -- Only required if you have packer configured as `opt`
@@ -37,6 +38,5 @@ return require('packer').startup(function(use)
   use {
     "williamboman/mason.nvim"
   }
+  use("pocco81/auto-save.nvim")
 end)
-
-
